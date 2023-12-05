@@ -24,6 +24,7 @@ public class Partida {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")
     private Long id;
+    
     private Long idCreador;
     private String nombrePartida;
 

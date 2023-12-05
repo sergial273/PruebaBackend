@@ -16,6 +16,8 @@ public class PartidaServiceImpl implements IPartidaService{
 
 	@Autowired
 	PartidaDAO PartidaDAO;
+	
+	@Autowired
 	VideojuegoDAO VideojuegoDAO;
 
 	public Partida savePartida(Partida Partida) {
